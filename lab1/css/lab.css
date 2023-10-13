@@ -12,11 +12,12 @@ h1{
     word-spacing: 20px;
     font-size: 350%; 
     font-family:comic sans-serif;
+    border: dotted color;
     color: rgb(210, 210, 161);
 }
-p {
-  text-indent: 10%;
-}
+
+p{
+ text-indent: 10%; } 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
     padding: 10px;
