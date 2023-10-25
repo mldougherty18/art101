@@ -1,6 +1,6 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - variables and recall 
+// Author: Maggie Dougherty
+// Date: oct 25 2023
 
 // Constants
 
@@ -19,3 +19,17 @@ function main() {
 
 // let's get this party started
 main();
+//defining variables
+  var carMake = "Honda";
+  var carModel = "Element";
+  var carColor = "Grey";
+  var carYear = 2008;
+//calculate 
+  var carAge = 2023 - carYear; 
+//output
+  //Note, that that is WRITELN with an "L" not WRITEIN
+document.writeln("Make: " + carMake + "<br>");
+document.writeln("Model: " + carModel + "<br>");
+document.writeln("Color: " + carColor + "<br>");
+document.writeln("Year: " + carYear + "<br>");
+document.writeln("Age: " + carAge + "<br>");
