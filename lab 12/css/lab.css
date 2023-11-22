@@ -1,0 +1,48 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+body{background-color: #3f3d5f;}
+body{ display:block;
+margin:15px;
+ color:rgb(54, 35, 125)}
+
+#content{margin: 10px;
+  padding: 10px;
+  border: solid 1px #45e0cb;
+  background-color: #83b0b2;}
+
+h1{
+  letter-spacing: 10px;
+    word-spacing: 20px;
+    font-size: 350%; 
+    font-family:comic sans-serif;
+    border: dotted color;
+    color: #e0e38c;
+} 
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 7px #527488;
+    background-color: #64cddf;
+  }
+  h2{
+    color:#e4ff9a;;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
+   .text p {
+    display: inline-block;
+    max-width: 60%;
+    margin: 3px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: rgb(119, 186, 237);
+    color: rgb(54, 35, 125);
+    font-family: sans-serif;
+}
+
+  p{
+    color: #f9f9f9;
+  }
+/*credit to Wes Modes and chatgpt 
+
