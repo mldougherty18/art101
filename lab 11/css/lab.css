@@ -1,46 +1,64 @@
-/* Here we can set styles for this lab page that we don't want to effect others pages */
-
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-body{background-color: #fc8225;}
-body{ display:block;
-margin:15px;}
-#content{margin: 10px;
-  padding: 10px;
-  border: solid 1px #45e0cb;
-  background-color: #83b0b2;}
-
-h1{
-  letter-spacing: 10px;
-    word-spacing: 20px;
-    font-size: 350%; 
-    font-family:comic sans-serif;
-    border: dotted color;
-    color: #e0e38c;
-} 
-.minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 7px #fa9248;
-    background-color: #64cddf;
-  }
-  h2{
-    color:#e4ff9a;;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
-  }
-   .text p {
-    display: inline-block;
-    max-width: 60%;
-    margin: 3px;
-    padding: 5px 10px;
-    border-radius: 15px;
-    background-color: rgb(119, 186, 237);
-    color: rgb(255, 117, 24);
-    font-family: sans-serif;
+element.style {
+}
+.r-2llsf {
+    min-height: 100%;
 }
 
-  p{
-    color: #f9f9f9;
-  }
-/*credit to Wes Modes and chatgpt 
-
+.r-1wtj0ep {
+    justify-content: space-between;
+}
+.r-1oszu61 {
+    align-items: stretch;
+}
+.r-1niwhzg {
+    background-color: rgba(0,0,0,0.00);
+}
+.r-18u37iz {
+    flex-direction: row;
+}
+.r-16y2uox {
+    flex-grow: 1;
+}
+.r-13qz1uu {
+    width: 100%;
+}
+.css-175oi2r {
+    align-items: stretch;
+    background-color: rgba(0,0,0,0.00);
+    border: 0 solid black;
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    flex-shrink: 0;
+    list-style: none;
+    margin: 0px;
+    min-height: 0px;
+    min-width: 0px;
+    padding: 0px;
+    position: relative;
+    text-decoration: none;
+    z-index: 0;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.r-12vffkv > * {
+    pointer-events: auto;
+}
+.r-12vffkv>* {
+    pointer-events: auto;
+}
+.r-12vffkv {
+    pointer-events: none!important;
+}
+style attribute {
+    overflow-y: scroll;
+    overscroll-behavior-y: none;
+    font-size: 15px;
+    color-scheme: dark;
+}
+injected stylesheet
+:host, :root {
+    --rem: 16;
