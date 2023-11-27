@@ -33,3 +33,4 @@ $(document).ready(function () {
   // Output the long string to the output div
   $("#output").html(oneLongString);
 });
+//thank you Wes Modes and chatgpt!
