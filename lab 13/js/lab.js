@@ -1,4 +1,4 @@
-// index.js - Using jquery adn javascript to create a sorting house function 
+// index.js - Create a fuzzbizz loop
 // Author: Maggie Dougherty
 // Date: nov 20 2023
 
