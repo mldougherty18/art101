@@ -48,6 +48,34 @@
 			  <a href="#" onclick="showPage('Content')">Content</a>
 			  <a href="#" onclick="showPage('Randomize')">Randomize</a>
 			</div>
+		</head>
+		<body>
+				
+					<meta charset="UTF-8">
+					<meta name="viewport" content="width=device-width, initial-scale=1.0">
+					<title>Your GitHub Pages Website</title>
+				</head>
+				<body>
+					<!-- Your existing GitHub Pages content goes here -->
+				
+					<!-- Utterances comments section -->
+					<div id="utterances-container"></div>
+					<script>
+						const script = document.createElement('script');
+						script.src = 'https://utteranc.es/client.js';
+						script.setAttribute('repo', 'your_username/your_repository'); // Replace with your GitHub username and repository
+						script.setAttribute('issue-term', 'pathname');
+						script.setAttribute('theme', 'github-light'); // You can change the theme
+						script.setAttribute('crossorigin', 'anonymous');
+						script.async = true;
+						<script async src="https://talk.hyvor.com/embed/embed.js" type="module"></script>
+<hyvor-talk-comments website-id="10061" page-id=""></hyvor-talk-comments>
+						document.getElementById('utterances-container').appendChild(script);
+					</script>
+				</body>
+			</script>
+		</body>
+		</html>
     </div>
     <div id="content">
       <div id="header">
