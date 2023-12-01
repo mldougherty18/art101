@@ -27,3 +27,4 @@ $(document).ready(function() {
       });
   });
 });
+//THANK YOU WES AND CHATGPT! 
