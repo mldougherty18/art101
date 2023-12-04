@@ -1,6 +1,6 @@
 // index.js - debug
 // Author: Maggie Dougherty
-// Date: nov 29 2023
+// Date: dec 3 2023
 
 // jQuery code to handle button click and make AJAX call
 $(document).ready(function() {
